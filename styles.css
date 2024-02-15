@@ -1,13 +1,15 @@
 body {
     margin: 0;
-    background-color: ECFFF2;
+    background-color: FBFADA;
     text-align: center;
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
 }
 
 .topnav {
     background-color: 1D1D1D;
     overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 
 .topnav a {
@@ -22,10 +24,32 @@ body {
 .topnav a:hover {
     background-color: CFCFCF;
     color: 1D1D1D;
-
+    text-shadow: 1.5px 1.5px 1.5px rgba(29,29,29,0.3);
 }
 .topnav a.active {
-    background-color: 1EBA6C;
+    background-color: 436850;
     color: white;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.3);
+}
+
+# p {
+    padding: 10px;
+    background-color: #ADBC9F;
+    width:700px;
+   margin: 10 auto;
+    border: 2px solid black;
+    border-radius: 6px; 
+}
+
+.alert {
+    padding: 0px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ADBC9F; 
+}
+
+h3 {
+    color: black;
 }
 
