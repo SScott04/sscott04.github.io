@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: FBFADA;
+    background-color: #FBFADA;
     text-align: center;
     font-family: 'Arial';
 }
 
 .topnav {
-    background-color: 1D1D1D;
+    background-color: #1D1D1D;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
@@ -22,8 +22,8 @@ body {
 }
 
 .topnav a:hover {
-    background-color: CFCFCF;
-    color: 1D1D1D;
+    background-color: #CFCFCF;
+    color: #1D1D1D;
     text-shadow: 1.5px 1.5px 1.5px rgba(29,29,29,0.3);
 }
 .topnav a.active {
@@ -32,13 +32,12 @@ body {
     text-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.3);
 }
 
-# p {
+main {
     padding: 10px;
     background-color: #ADBC9F;
     width:700px;
-   margin: 10 auto;
-    border: 2px solid black;
-    border-radius: 6px; 
+    margin: -2 auto;
+    border: 2px solid #1D1D1D;
 }
 
 .alert {
@@ -46,10 +45,15 @@ body {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    background-color: #ADBC9F; 
+    background-color: #F6F5A4; 
 }
 
-h3 {
-    color: black;
+footer {
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-grow: 4;
+    margin: auto;
 }
 
