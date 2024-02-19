@@ -35,7 +35,7 @@ body {
 main {
     padding: 10px;
     background-color: #ADBC9F;
-    width:700px;
+    width: 85vw;
     margin: -2 auto;
     border: 2px solid #1D1D1D;
 }
@@ -46,6 +46,7 @@ main {
     line-height: 30px;
     text-align: center;
     background-color: #F6F5A4; 
+
 }
 
 footer {
