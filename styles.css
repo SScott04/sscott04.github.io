@@ -3,6 +3,9 @@ body {
     background-color: #FBFADA;
     text-align: center;
     font-family: 'Arial';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .topnav {
@@ -36,25 +39,24 @@ main {
     padding: 10px;
     background-color: #ADBC9F;
     width: 85vw;
-    margin: -2 auto;
-    border: 2px solid #1D1D1D;
+    margin: auto;
+    border-left: 2px solid #1D1D1D;
+    border-right: 2px solid #1D1D1D;
+    flex: 1;
 }
 
 .alert {
-    padding: 0px auto;
-    height: 30px;
-    line-height: 30px;
+    padding: auto;
     text-align: center;
     background-color: #F6F5A4; 
-
 }
 
 footer {
+    width: 100%;
     background-color: #1D1D1D;
     color: white;
     display: flex;
     justify-content: center;
-    flex-grow: 4;
     margin: auto;
 }
 
