@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    background-color: #FBFADA;
+    background-color: #1D1D1D;
     text-align: center;
     font-family: 'Arial';
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 18;
 }
 
 .topnav {
@@ -19,7 +20,7 @@ body {
     color: white;
     text-decoration: none;
     float: left;
-    font-size: 18;
+    font-size: 20;
     padding: 16px;
     text-align: center;    
 }
@@ -37,7 +38,8 @@ body {
 
 main {
     padding: 10px;
-    background-color: #ADBC9F;
+    background-color: #1D1D1D;
+    color: white;
     width: 85vw;
     margin: auto;
     border-left: 2px solid #1D1D1D;
@@ -45,31 +47,29 @@ main {
     flex: 1;
 }
 
-.alert {
-    padding: auto;
-    text-align: center;
-    background-color: #F6F5A4; 
-}
 
 footer {
     width: 100%;
     background-color: #1D1D1D;
     color: white;
- 
     justify-content: center;
     margin: auto;
+    font-family: 'Arial';
+    font-size: 20;
 }
 
 .bottomtext {
     display: flex;
+    justify-content: right;
+    margin-right: 50;
 }
 
 .left {
-    width: 300px
+    width: 100px
 }
 
 .right {
-    flex-grow: 1;
+    width: 100px
 }
 
 .bottomtext a:link {
@@ -92,10 +92,10 @@ footer {
     grid-template-columns: 1fr 12fr 1fr;
     column-gap: 10px;
     padding: 15px;
-    background-color: #FBFADA;
+    background-color: #292929;
     width: 80vw;
     margin: auto;
-    border: 2px solid #1D1D1D;
+    border: 2px solid #636363;
     border-radius: 7px;
     flex: 1;
     text-align: left;
@@ -103,23 +103,24 @@ footer {
 }
 
 .projects a:link {
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
 }
 
 .projects a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 .projects a:hover {
-    color: rgb(90, 89, 89);
+    color: rgb(189, 189, 189);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 img {
     border-radius: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
